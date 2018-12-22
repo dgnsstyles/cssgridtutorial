@@ -1,4 +1,36 @@
 * {
-  background: blue; }
+  background: white;
+  font-family: sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+.container {
+  display: grid;
+  height: 100vh;
+  margin: 30px auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10rem minmax(20rem, 1fr) 10rem;
+  grid-gap: 1rem;
+  grid-template-areas: "nav nav nav" "header header header" "card card card" "card1 card1 card1" "card2 card2 card2" "footer footer footer"; }
+
+.item {
+  background-color: #333;
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  color: white; }
+  .item--1 {
+    grid-area: nav; }
+  .item--2 {
+    grid-area: header; }
+  .item--3 {
+    grid-area: card; }
+  .item--4 {
+    grid-area: card1; }
+  .item--5 {
+    grid-area: card2; }
+  .item--6 {
+    grid-area: footer; }
 
 /*# sourceMappingURL=styles.css.map */

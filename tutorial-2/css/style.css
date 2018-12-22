@@ -1,2 +1,37 @@
 * {
-  background: red; }
+  background: #333;
+  font-family: sans-serif; }
+
+html {
+  font-size: 63.5%; }
+
+.container {
+  font-size: 3rem;
+  display: grid;
+  height: 100vh;
+  margin: 5rem auto;
+  max-width: 1000px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 20rem 20rem;
+  grid-auto-rows: minmax(20rem, auto);
+  justify-content: center;
+  grid-column-gap: 4rem;
+  grid-row-gap: 2rem; }
+
+.item {
+  padding-top: 2rem;
+  font-size: 3.5rem;
+  color: white;
+  text-align: center; }
+  .item--1 {
+    background-color: red; }
+  .item--2 {
+    background-color: blue; }
+  .item--3 {
+    background-color: greenyellow; }
+  .item--4 {
+    background-color: black; }
+  .item--5 {
+    background-color: gray; }
+  .item--6 {
+    background-color: violet; }
