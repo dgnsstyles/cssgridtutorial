@@ -13,8 +13,8 @@ html {
     grid-template-rows: 10rem minmax(20rem, 1fr) 10rem;
     grid-gap: 1rem;
     grid-template-areas:
-        "nav nav nav"
-        "header header header"
+        "sony sony sony"
+        ". scarlett ."
         "card card card"
         "card1 card1 card1"
         "card2 card2 card2"
@@ -30,10 +30,10 @@ html {
     padding-top: 2rem;
     color: white;
     &--1 {
-        grid-area: nav;
+        grid-area: sony;
     }
     &--2 {
-        grid-area: header;
+        grid-area: scarlett;
     }
     &--3 {
         grid-area: card;

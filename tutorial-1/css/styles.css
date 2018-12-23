@@ -12,7 +12,7 @@ html {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 10rem minmax(20rem, 1fr) 10rem;
   grid-gap: 1rem;
-  grid-template-areas: "nav nav nav" "header header header" "card card card" "card1 card1 card1" "card2 card2 card2" "footer footer footer"; }
+  grid-template-areas: "sony sony sony" ". scarlett ." "card card card" "card1 card1 card1" "card2 card2 card2" "footer footer footer"; }
 
 .item {
   background-color: #333;
@@ -21,9 +21,9 @@ html {
   padding-top: 2rem;
   color: white; }
   .item--1 {
-    grid-area: nav; }
+    grid-area: sony; }
   .item--2 {
-    grid-area: header; }
+    grid-area: scarlett; }
   .item--3 {
     grid-area: card; }
   .item--4 {
